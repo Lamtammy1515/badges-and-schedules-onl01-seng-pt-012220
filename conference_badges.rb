@@ -6,9 +6,11 @@ end
 
 
 def batch_badge_creator(attendees)
+badges = []
  attendees.map do |name|
     badges << "Hello, my name is #{name}."
  end
+ return badges
 end 
 
 
